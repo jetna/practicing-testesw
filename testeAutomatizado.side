@@ -1,0 +1,71 @@
+{
+  "id": "979299ec-915b-4646-9e40-faf8ab276000",
+  "version": "2.0",
+  "name": "testeAutomatizado",
+  "url": "https://capacitacao.navedoconhecimento.org.br",
+  "tests": [{
+    "id": "871e78c1-139d-4911-ad8b-dfa31b4d231e",
+    "name": "",
+    "commands": [{
+      "id": "37541547-e197-4c60-9f9c-9a3589299480",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d26b5947-313c-4892-ace6-e682f1bc631d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "697x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21b01e3e-b10e-45b1-9b4d-d174c54847a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-box > input",
+      "targets": [
+        ["css=.search-box > input", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5cd7ea4-c48a-4de9-a07b-2f178e073e40",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-box > input",
+      "targets": [
+        ["css=.search-box > input", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "610274fa-fd4b-4812-bef0-04e36a80cf64",
+      "comment": "",
+      "command": "type",
+      "target": "css=.search-box > input",
+      "targets": [
+        ["css=.search-box > input", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "robótica"
+    }]
+  }],
+  "suites": [{
+    "id": "9155945c-9d1b-4f24-bd9f-47b4c7d662f3",
+    "name": "",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["871e78c1-139d-4911-ad8b-dfa31b4d231e"]
+  }],
+  "urls": ["https://capacitacao.navedoconhecimento.org.br/"],
+  "plugins": []
+}
